@@ -10,3 +10,6 @@ open `index.html` in a browser
 
 ## deploy
 works on vercel, netlify or github pages as a static site, no config needed
+
+## license
+MIT, see `LICENSE`
