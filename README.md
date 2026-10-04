@@ -129,4 +129,4 @@ Tell me what you're building, your goals and your timeline. My DMs are open.
 
 ## License
 
-[MIT](LICENSE) © 2026 Haleemah and Mac
+[MIT](LICENSE) © 2026 Haleemah
