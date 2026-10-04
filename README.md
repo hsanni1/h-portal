@@ -10,9 +10,7 @@ One link answers the questions every brand asks before reaching out:
 H Portal is a single-file personal site with liquid glass UI, a WebGL orb,
 live-counting stats and a little "Ask H Portal" app built right into the page.
 
-[Live site](#live-site) · [What's inside](#whats-inside) · [How it works](#how-it-works) · [Features](#features) · [Run locally](#run-locally) · [Deploy](#deploy) · [Contact](#contact) · [License](#license)
-
-<img src="docs/preview.png" width="760" alt="H Portal landing screen: a glowing glass orb above the words 'welcome to H PORTAL' with a liquid glass nav bar" />
+<img src="docs/preview.jpg" width="760" alt="H Portal landing screen: a blue liquid orb above the words 'welcome to H PORTAL' with a liquid glass nav bar" />
 
 </div>
 
@@ -117,34 +115,6 @@ mode, jump to projects or open a DM.
 - **Mobile first**: layouts adjust at 760, 720, 640, 560 and 480 px, and respect the iPhone notch and home bar.
 - **Reduced motion**: if your device asks for less motion, the animations calm down.
 
-## Run locally
-
-```
-git clone https://github.com/hsanni1/h-portal
-cd h-portal
-open index.html
-```
-
-That's it. No `npm install`, no server. On Windows use `start index.html`,
-on Linux `xdg-open index.html`, or just double-click the file.
-
-## Deploy
-
-H Portal is a plain static site, so any static host works with no config:
-
-- **Vercel**: import the repo, leave every setting on default, deploy.
-- **Netlify**: drag the folder onto the Netlify dashboard.
-- **GitHub Pages**: Settings → Pages → deploy from the `main` branch, root folder.
-
-## Editing
-
-Everything is in `index.html`:
-
-- **Text**: search for the line you want to change and edit it in place.
-- **Colors**: the theme tokens are at the top of the `<style>` block under `:root` (light) and `[data-theme="dark"]` (dark).
-- **Numbers**: the counters read from `data-to` attributes, for example `data-to="1.5"`.
-- **Brands and links**: each brand is an `<a>` pointing to its X profile.
-
 ## Contact
 
 Tell me what you're building, your goals and your timeline. My DMs are open.
@@ -155,7 +125,6 @@ Tell me what you're building, your goals and your timeline. My DMs are open.
 
 ## Credits
 
-- [Bricolage Grotesque](https://fonts.google.com/specimen/Bricolage+Grotesque), [JetBrains Mono](https://fonts.google.com/specimen/JetBrains+Mono) and [Caveat](https://fonts.google.com/specimen/Caveat) from Google Fonts.
 - Brand names and logos belong to their owners and are shown only to identify work done with them. H Portal is not endorsed by any of them.
 
 ## License
